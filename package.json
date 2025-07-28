@@ -11,7 +11,7 @@
     "react-dom": "^18.2.0",
     "@emailjs/browser": "^3.11.0",
     "framer-motion": "^11.0.0",
-    "react-intersection-observer": "^9.50.2"
+    "react-intersection-observer": "^9.4.3"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
