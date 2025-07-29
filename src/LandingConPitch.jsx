@@ -1,18 +1,17 @@
 
-import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { Helmet } from "react-helmet";
-import { send } from "@emailjs/browser";
+import React from "react";
+import { Card } from "./components/ui/card";
+import { Button } from "./components/ui/button";
 
-export default function LandingConPitch() {
+const LandingConPitch = () => {
   return (
-    <>
-      <Helmet>
-        <title>ConectaPro</title>
-      </Helmet>
-      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+    <div>
+      <Card>
         <h1>Bienvenido a ConectaPro</h1>
-      </motion.div>
-    </>
+        <Button>Explorar</Button>
+      </Card>
+    </div>
   );
-}
+};
+
+export default LandingConPitch;

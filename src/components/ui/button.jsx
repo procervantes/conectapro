@@ -1,1 +1,4 @@
-export function Button({ children }) { return <button>{children}</button>; }
+
+export function Button({ children }) {
+  return <button className="button">{children}</button>;
+}
