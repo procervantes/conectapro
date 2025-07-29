@@ -1,10 +1,9 @@
-
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import LandingConPitch from './LandingConPitch'
+import App from './App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <LandingConPitch />
+    <App />
   </React.StrictMode>
 )
