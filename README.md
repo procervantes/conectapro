@@ -1,3 +1,3 @@
 # ConectaPro
 
-App para conectar clientes con profesionales como plomeros, pintores, etc.
+Plataforma para conectar clientes con profesionistas certificados. Incluye chat, portafolio, calendario, pagos, calificaciones, panel administrativo y botón de WhatsApp.
