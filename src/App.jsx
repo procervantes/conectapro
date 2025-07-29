@@ -1,13 +1,17 @@
-
-import React from 'react';
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import LandingPage from './components/LandingPage'
+import Register from './components/Register'
 
 function App() {
   return (
-    <div>
-      <h1>Bienvenido a ConectaPro</h1>
-      <p>Conecta clientes con profesionistas certificados.</p>
-    </div>
-  );
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/registro" element={<Register />} />
+      </Routes>
+    </Router>
+  )
 }
 
-export default App;
+export default App
